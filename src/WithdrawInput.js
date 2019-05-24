@@ -10,16 +10,22 @@ export default class WithdrawInput extends Component {
 
     valueChange = (e) => {
         this.setState({
-            text: e.target.value
+            value: e.target.value
         });
     }  
+
+    submitValue = () => {
+        //this.props.withdraw(this.state.value)
+        console.log(this.state.value)
+    }
 
     render() {
         return (
             <div class="transaction-form">
-                Withdraw:
+                <strong>Withdraw:</strong>
+                <br />
                 <input type="number" min="0" onChange={this.valueChange} />
-                <input type="buttton" value="0" onClick={this.props.withdraw(this.value)} />
+                <input type="button" value="Confirm" onClick={this.submitValue}/>
             </div>
         );
     }
