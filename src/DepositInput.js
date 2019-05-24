@@ -15,7 +15,7 @@ export default class DepositInput extends Component {
     }  
 
     submitValue = () => {
-        //this.props.deposit(this.state.value)
+        this.props.deposit(this.state.value)
         console.log(this.state.value)
     }
 

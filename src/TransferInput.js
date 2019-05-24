@@ -17,14 +17,12 @@ export default class TransferInput extends Component {
     
     userIdChange = (e) => {
         this.setState({
-            otherUserId: e.target.otherUserId
+            otherUserId: e.target.value
         });
     }
 
     submit = () => {
-        //this.props.transfer(this.state.value, this.state.userId)
-        console.log(this.state.value)
-        console.log("user id: " + this.state.otherUserId)
+        this.props.transfer(this.state.value, this.state.userId)
     }
 
     render() {

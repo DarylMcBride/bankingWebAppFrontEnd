@@ -15,7 +15,7 @@ export default class WithdrawInput extends Component {
     }  
 
     submitValue = () => {
-        //this.props.withdraw(this.state.value)
+        this.props.withdraw(this.state.value)
         console.log(this.state.value)
     }
 
