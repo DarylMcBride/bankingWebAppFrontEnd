@@ -1,5 +1,5 @@
-FROM node:10 as node
-COPY . /build1
-WORKDIR /build1
-RUN npm i
-ENTRYPOINT ["/usr/local/bin/npm", "start"]
+FROM node:latest
+WORKDIR /app
+COPY . .
+RUN npm install
+ENTRYPOINT ["npm", "start"]
