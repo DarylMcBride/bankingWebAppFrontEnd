@@ -1,0 +1,35 @@
+ul {
+    list-style-type: none;
+    margin: 0 0 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #46aaba;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+    float: left;
+}
+
+li input {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sortByButton {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding:8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}

@@ -1,0 +1,1 @@
+export const backend_IP = "35.246.88.186:8181";
