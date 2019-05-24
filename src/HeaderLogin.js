@@ -11,8 +11,8 @@ export default class HeaderLogin extends Component {
         return (
             <header>
                 <div className="header">
-                    <h1>ToDo</h1>
-                    <p>A website to organise tasks</p>
+                    <h1>Bank App</h1>
+                    <p></p>
                 </div>
             </header>
         );

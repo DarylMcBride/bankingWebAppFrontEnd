@@ -11,8 +11,8 @@ export default class Header extends Component {
         return (
             <div className="row banner">
                 <div className="col-9">
-                    <h1 className="">ToDo</h1>
-                    <p className="">A website to organise tasks</p>
+                    <h1 className="">Bank App</h1>
+                    <p className=""></p>
                 </div>
                 <div className="col">
                     <input className="btn btn-primary log-out" type="submit" value="Log Out" onClick={this.props.logout} />

@@ -11,7 +11,7 @@ export default class Footer extends Component {
         return (
             <footer className="footer">
                 <div className="container">
-                    <span className="text-muted">Jake Evans - QA Individual Project</span>
+                    <span className="text-muted">QA Group Project</span>
                 </div>
             </footer>
         );
